@@ -4,6 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
 }
 
 .tweet {
@@ -12,7 +13,6 @@ body {
     width: 600px;
     border-radius: 5px;
     padding: 20px;
-    margin-top: 300px; /* agrego esto porque no logro centrar desde body*/
 }
 
 .header {
