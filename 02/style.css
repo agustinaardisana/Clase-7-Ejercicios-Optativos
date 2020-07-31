@@ -1,0 +1,64 @@
+body {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.dado {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 10px;
+}
+
+.lunar {
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+}
+
+.fila {
+    display: flex;
+    width: 100%;
+}
+.numero-1, .numero-2 .fila:nth-child(2), .numero-5 .fila:nth-child(2) {
+    justify-content: center;
+    align-items: center;
+}
+
+.numero-2 .fila:nth-child(2) {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.numero-3 .fila:first-child {
+    justify-content: flex-end;
+}
+
+.numero-3 .fila:nth-child(2) {
+    justify-content: center;
+}
+
+.numero-3 .fila:nth-child(3) {
+    align-items: flex-end;
+}
+
+.numero-4 .fila, .numero-6 .fila, .numero-5 .fila:nth-child(odd) {
+    justify-content: space-between;
+}

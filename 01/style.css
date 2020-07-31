@@ -1,0 +1,82 @@
+body {
+    background-color: #1da1f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tweet {
+    display: block;
+    background-color: white;
+    width: 600px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 300px; /* agrego esto porque no logro centrar desde body*/
+}
+
+.header {
+    display: flex;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.username {
+    display: block;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+h1, h2 {
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+.texto {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+hr {
+    color: rgba(240, 240, 240, 0.555);
+    margin: 20px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats {
+    display: block;
+    font-size: 15px;
+}
+
+span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.links {
+    display: block;
+    margin-top: 15px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+}
